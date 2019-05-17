@@ -1,0 +1,52 @@
+CONTROLLER EKA SAHA MODEL EKA -
+    mulinma karanne web page eka hadaganna eka passe
+
+    after creating buttons have to create the 
+                            controller in the cmd so write in 
+                            command line:
+                            php artisan make:controller CreatesController
+                            
+                            app->Http=>controllers=> maked controller
+
+                            then we have to create a model
+                            php artisan make:model modelname -m
+
+                            database->migrations->..
+
+                            php artisan migrate
+                            if there is an error please follow
+                            stack overflow it has it 
+                            by changing the code plese drop down
+                            all tables in the data base and 
+                            run php artisan migrate in the cmd
+                            then it will make four tables
+
+        controller ekai model ekakui hada gannawa
+
+        ita passe database eke migrations eke table ekak hadagannawa
+        ita passe hadapu controller eken function ekak hadala model ekata cal karana eka thama
+        karanne
+
+        ita passe route eken call karala balanawa wadada kiyala
+
+        controller eken pass karanawa table eke data eka variable ekakin eka home eke di allagannawaa
+        @walin home eke tinne eka thama eken table ekata ganata data danawa
+
+        ita passe create eka hadanawa 
+
+CREATE PAGE EKE WADA TIKA-
+    meke wenna one submit button eka click karama insert kiyala wenama page ekata
+    yannath one database ekata data save wennath one.so at first
+    action eka {{url('/insert')}} danawa inset ekata yannanam route karanna one
+    enisa route eke post method eken conroller eke add kiyala funtion ekak hadanawa
+    controller eketh add kiyana eka hadanna one mokada route eke controller eken
+    add kiyana ekata call karana nisa.return 'add' kiyala one nam inset ekata yanawada
+    kiyala balanna puluwan.
+
+CREATE PAGE EKA VALIDATE KEREEMA=
+    mekedi add function eke request object ekak hadala karana widiha controller 
+    eke thinawa.e tika create page eke wada karanna one code tikath validation 
+    yatathe liyala thinawa.mekedi controller eke tinawa array eke title and description 
+    kiyala dekak e name deka aniea title lable eke input eke name ekama wenna one
+    description ekatath ehemai.ehema nati unoth errors dekama pennanawa.column
+    dekama fill karath success wenne naha.
